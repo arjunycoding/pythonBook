@@ -1,8 +1,8 @@
 import random
 number = random.randint(1, 100)
 numberOfGuesses = 0
+print("Welcome to the guess the number game! You only have 10 tries so guess wisely")
 while(numberOfGuesses < 10):
-    print("Welcome to the guess the number game! You only have 10 tries so guess wisely")
     print("Guess a number between 1 and 100 \n")
     guess = input()
     guess = int(guess)

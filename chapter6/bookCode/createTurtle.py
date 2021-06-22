@@ -1,0 +1,18 @@
+import turtle
+# Creating Tom The Turtle
+turtle.colormode(255)
+turtle.setup(500, 500)
+turtle.shape("turtle")
+turtle.Screen().bgcolor(29, 162, 216)
+turtle.color(9, 185, 13)
+turtle.pencolor(0, 128, 0)
+turtle.turtlesize(3, 3, 2)
+turtle.turtlesize(outline=3)
+turtle.forward(200)
+turtle.back(350)
+turtle.left(90)
+turtle.forward(200)
+turtle.right(150)
+turtle.forward(300)
+turtle.forward(200)
+turtle.done()

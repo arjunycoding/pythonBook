@@ -1,8 +1,9 @@
 print("Welcome to the Rock Paper Sissors Game!")
+print("What is your name?")
+player1 = input()
 print("Type what you chose(Rock Paper or Sissors)")
 import random
-player1 = "Arjun"
-player2 = "Adhithya"
+player2 = "the computer"
 opaitons = ["rock", "paper", "scissors"]
 def compare(item1, item2):
     if item1 == item2:
